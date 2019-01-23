@@ -1,0 +1,348 @@
+body {
+    margin: 0px;
+}
+
+/* header */
+.headerContainerWrap {
+    width: 100%;
+    background-color: #abeafa;
+    position: relative;
+    display: block;
+}
+
+.headerContainerContentWrap {
+    width: 1170px;
+    height: 700px;
+    position: relative;
+    margin: auto;
+}
+
+.headerLogo {
+    display: block;
+    width: 125px;
+    height: 111px;
+    position: absolute;
+    left: 69px;
+    top: 24px;
+    background-image: url(../images/surfhouse_logo.png);
+}
+
+.headerIconsWrap {
+    width: 120px;
+    height: 16px;
+    position: absolute;
+    top: 50px;
+    right: 64px;
+    display: flex;
+    justify-content: space-between;
+    color: #f8f8f8;
+}
+
+.headerWelcomeBanner {
+    width: 270px;
+    height: 300px;
+    background-color: #fff51f;
+    position: absolute;
+    top: 336px;
+    padding: 82px 22px;
+    box-sizing: border-box;
+}
+
+.headerWelcomeBannerSubject {
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.headerWelcomeBannerBody {
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 16px;
+    margin-top: 24px;
+}
+
+.headerMessageWrap {
+    width: 313px;
+    height: 169px;
+    position: absolute;
+    top: 243px;
+    right: 109px;
+    color: #fff51f;
+}
+
+.headerMessageSubject {
+    font-family: "Raleway - Extra Bold", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.headerMessageBody {
+    font-family: "Raleway - Regular", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.headerBuyButton {
+    width: 124px;
+    height: 49px;
+    display: block;
+    background-color: #fff51f;
+    color: #000000;
+    font-family: "Raleway - Bold", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 62px;
+    line-height: 49px;
+}
+
+
+/* content container left*/
+.contentContainerWrap {
+    width: 100%;
+    height: 2305px;
+    position: relative;
+    display:  block;
+    margin-top: -20px;
+}
+
+.contentContainerContentWrap {
+    width: 1170px;
+    height: inherit;
+    position: relative;
+    margin: -20px auto 0px auto;
+    
+}
+
+.contentContainerContentLeft {
+    width: 270px;
+    height: 879px;
+    display: flex;
+    float: left;
+    position: relative;
+}   
+
+.contentMainMenu {
+    width: inherit;
+    height: 539px;
+    display: block;
+    background-color: #26d2fc;
+    margin-bottom: 30px;
+}
+
+.contentMainMenu a {
+    display: block;
+    height: 43px;
+    text-transform: uppercase;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    padding: 0 40px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.contentMainMenu a:first-child {
+    height: 66px;
+    background: #333;
+    color: #fff;
+    line-height: 66px;
+}
+
+.contentMainMenu a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.contentNowIsOpenBanner {
+    display: block;
+    width: 270px;
+    height: 300px;
+    background-color: #e0e0e0;
+    box-sizing: border-box;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+}
+
+.contentNowIsOpenBannerBody {
+    width: 109px;
+    height: 98px;
+    color: #333333;
+    font-family: "Raleway - Black", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 36px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 142px;
+    margin-top: 129px;
+}
+
+
+/* content container right*/
+.contentContainerContentRight {
+    width: 870px;
+    height: 1674px;
+    background-color: #f8f8f8;
+    display: block;
+    float: right;
+    position: relative;
+}
+
+.contentNewProductsWrap {
+    width: inherit;
+    height: 724px;
+    margin-bottom: 70px;
+}
+ 
+.contentTopProductsWrap {
+    width: inherit;
+    height: 400px;
+    margin-bottom: 50px;
+    top: 774px;
+}
+
+.contentSaleProductsWrap {
+    width: inherit;
+    height: 400px;
+    top: 1244px;
+}
+
+.contentNewProductsHeader,
+.contentTopProductsHeader,
+.contentSaleProductsHeader {
+    width: 170px;
+    height: 16px;
+    color: #707070;
+    font-family: "Roboto Black", sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    left: 25px;
+    top: 31px;
+    margin-bottom: 60px;
+}
+
+.contentProductPosition {
+    background-color: #ffffff;
+    width: 270px;
+    height: 320px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.contentProductPositionHyperlink {
+    text-decoration: none;
+}
+
+.contentProductPosition:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.contentProductPosition:nth-child(n+4) {
+    margin-top: 30px;
+}
+
+.contentProductNew:before,
+.contentProductHot:before {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 9px;
+    color: #fff;
+    padding: 9px 0 0 22px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.contentProductNew:before {
+    content: "NEW";
+    background: url(../images/new-corner.png) no-repeat;
+}
+
+.contentProductHot:before {
+    content: "HOT";
+    background: url(../images/hot-corner.png) no-repeat;
+    color: #000000;
+}
+
+.contentProductPositionImage {
+    width: 100%;
+    height: 235px;
+    margin-bottom: 19px;
+}
+
+.contentProductPositionName {
+    width: 155px;
+    font-family: "Roboto Black", sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #333;
+    float: left;
+    max-height: 2.4em;
+    overflow: hidden;
+}
+
+.contentProductPositionPrice {
+    float: right;
+    font-family: "Roboto Black", sans-serif;
+    font-style: italic;
+    color: #333;
+    text-align: right;
+}
+
+.contentProductPositionPriceCurrent {
+    font-size: 18px;
+}
+
+.contentProductPositionPricePrevious {
+    color: #e24602;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+/* content container bottom*/
+.contentContainerContentBottom {
+    width: 1170px;
+    height: 661px;
+    background-color: #eaeaea;
+    display: flex;
+    float: right;
+}
+
+.footerContainerWrap {
+    width: 100%;
+    background-color: #373737;
+    position: relative;
+    display: block;
+}
+
+.footerContainerContentWrap {
+    width: 1170px;
+    height: 351px;
+    background-color: darkgray;
+    position: relative;
+    margin: auto;
+}
